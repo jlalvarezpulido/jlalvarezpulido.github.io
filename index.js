@@ -9,8 +9,12 @@ button1.innerHTML = "Reset";
 button0.onclick = function(){
      Mocha.innerHTML = "Not Mocha";
      Latte.innerHTML = "Not Latte";
+     $(button0).css("background-color", "red");
+     $(button1).css("background-color", "#333");
 }
 button1.onclick = function(){
     Mocha.innerHTML = "Esspresso Steamed milk and Syrup"; 
     Latte.innerHTML = "Milky Froathy Esspresso";
+     $(button1).css("background-color", "red");
+     $(button0).css("background-color", "#333");
 }
